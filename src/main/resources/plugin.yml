@@ -1,0 +1,11 @@
+name: Fish
+version: 0.0.1
+description: This plugin enables cool features with fishing.
+main: com.mcip.fish.Fish
+api-version: 1.15
+
+commands:
+  enchant:
+    description: this command allows players to test/use the Magic Fish plugin!
+    usage: /fish <fish type>
+    
