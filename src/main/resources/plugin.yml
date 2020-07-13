@@ -5,7 +5,8 @@ main: com.mcip.fish.Fish
 api-version: 1.15
 
 commands:
-  enchant:
-    description: this command allows players to test/use the Magic Fish plugin!
-    usage: /fish <fish type>
+  magicfish:
+    description: this command allows players to test and use the Magic Fish plugin!
+    usage: /magicfish <fish type>
+
     
