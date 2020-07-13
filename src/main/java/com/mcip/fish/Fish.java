@@ -153,7 +153,7 @@ public class Fish extends JavaPlugin implements Listener {
         }
 
         Player player = (Player) sender;
-        if (player.hasPermission("magicfish")) {
+        if (player.hasPermission("magicfish.use")) {
             if (args.length != 1) {
                 sender.sendMessage(ChatColor.DARK_RED + "Error!" + ChatColor.RED
                         + " Incoorrect usage.   Usage: /magicfish <cod | tropicalfish | pufferfish | salmon>");
